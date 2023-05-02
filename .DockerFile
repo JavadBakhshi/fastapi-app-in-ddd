@@ -2,7 +2,7 @@ FROM tiangolo/uvicorn-gunicorn-fastapi:python3.8
 
 RUN pip install -r requirements.txt
 
-WORKDIR /src
+WORKDIR /src/entrypoint
 
 EXPOSE 8000
 
